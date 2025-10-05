@@ -1,5 +1,5 @@
-from sam import add_employee, view_employee, search_employee, update_employee,delete_employee
-def dashboard():
+from function import add_employee, view_employee, search_employee, update_employee,delete_employee
+def menu():
     employees=[]
     while True:
         print("----------EMPLOYEE MANAGEMENT SYSTEM----------")
@@ -28,4 +28,4 @@ def dashboard():
             print("Invalid choice, Try again.\n")
 
 #direct calling
-dashboard()
+menu()
